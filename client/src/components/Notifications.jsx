@@ -8,6 +8,7 @@ const Notifications = () => {
 
   return (
     <>
+    <div>Hello</div>
     {call.isReceivingCall && !callAccepted && (
       <div style={{ display: 'flex', justifyContent: 'space-around' }}>
         <h1>{call.name} is calling:</h1>
